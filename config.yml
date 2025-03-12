@@ -1,0 +1,9 @@
+development:
+  password: dba2b683d823b5bb4701848bef2e42ac
+  store: 6b5a64-5.myshopify.com
+  # We'll add the theme_id once we know which theme you want to work with
+  # theme_id: "THEME_ID_GOES_HERE"
+  ignore_files:
+    - .git/
+    - .github/
+    - node_modules/

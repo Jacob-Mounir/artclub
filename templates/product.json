@@ -1,0 +1,132 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_T3UYwe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_AibUdN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping Information",
+            "icon": "truck",
+            "content": "<p>We offer worldwide shipping. All orders are shipped from our warehouse in Sweden.</p><p>All orders have track and trace. Tracking information will be sent to you in a separate e-mail from our shipping partner once your order has been dispatched.</p><p><strong>Denmark</strong><br/>Standard (GLS): 2-5 business days<br/>Express (UPS): 1-2 business days</p><p><strong>Europe EU</strong><br/>Standard (UPS) Economy: 4-6 business days<br/>Express (UPS): 1-2 business days</p><p><strong>Rest of Europe</strong><br/>Standard (UPS/FedEx): 4-8 business days<br/>Express (UPS/FedEx): 2-3 business days</p><p><strong>United Kingdom</strong><br/>Standard (FedEx): 4-6 business days<br/>Express (FedEx): 1-2 business days</p><p><strong>USA & Canada</strong><br/>Standard (FedEx): 4-8 business days<br/>Express (FedEx): 3-5 business days</p><p><strong>Rest of the world</strong><br/>Standard (FedEx): 6-8 business days<br/>Express (FedEx): 3-5 business days</p><p>Please note that some countries, remote cities, or islands may have longer delivery times. We can’t take responsibility for any delays out of our control, like customs delays, deliveries to remote places, etc.</p><p><strong><br/>Flexible delivery<br/></strong>If the service is available at the shipping destination, the package will include a flexible delivery service that allows you to:</p><p>–  Change delivery to a Service Point<br/>–  Authorize delivery of the package without a signature<br/>–  Change the shipping address<br/>–  Change the delivery date<br/>–  Have it delivered to a neighbour<br/>–  Hold the delivery for up to 30 days if you are not home</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_H8ghH7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Free Framing Service",
+            "icon": "price_tag",
+            "content": "<p>Free Framing Service</p><p>When you purchase an art print and frame in matching sizes, we will frame it for free. If you also purchase a matching passepartout, this will be mounted with the print and frame and is also included in our free framing service.</p><p>Please note that when a print is mounted to a matching passepartout, we secure it with framing tape, making it difficult to replace the print in the future.</p><p>We do not offer frames for prints in sizes 100×100 cm and 100×140 cm or passepartouts for frames in size A1, 70×70 cm, 70×100 cm, 100×100 cm, and 100×140 cm. We recommend consulting your local framing shop for available options.</p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "variant_picker",
+        "price",
+        "description",
+        "buy_buttons",
+        "collapsible_tab_T3UYwe",
+        "collapsible_tab_AibUdN",
+        "collapsible_tab_H8ghH7",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-5bfba653-c212-4ceb-b2a8-ad79278dedce",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-5bfba653-c212-4ceb-b2a8-ad79278dedce",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}
